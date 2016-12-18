@@ -1,0 +1,7 @@
+c:\users\anders\documents\visual studio 2015\Projects\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\SeleniumNunitSimple.dll
+c:\users\anders\documents\visual studio 2015\Projects\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\SeleniumNunitSimple.pdb
+c:\users\anders\documents\visual studio 2015\Projects\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\nunit.framework.dll
+c:\users\anders\documents\visual studio 2015\Projects\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\nunit.framework.xml
+c:\users\anders\documents\visual studio 2015\Projects\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.csprojResolveAssemblyReference.cache
+c:\users\anders\documents\visual studio 2015\Projects\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.dll
+c:\users\anders\documents\visual studio 2015\Projects\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.pdb
