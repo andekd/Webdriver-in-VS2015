@@ -15,3 +15,4 @@ E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\WebDriver.Support.xml
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.dll
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.pdb
+E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.csprojResolveAssemblyReference.cache
