@@ -1,4 +1,6 @@
 ﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections;
 
@@ -45,4 +47,119 @@ namespace SeleniumNunitSimple
         }
 
     }
+
+    /*
+    public class Google1
+    {
+        private IWebDriver driver;
+
+        [SetUp]
+        public void LoadDriver()
+        {
+            Console.WriteLine("SetUp");
+            driver = new ChromeDriver();
+        }
+
+        [TestCase("Bing", "Bing")]
+        public void Search(string searchString, string expectedResult)
+        {
+            // execute Search twice with testdata: Google, Bing
+
+            driver.Navigate().GoToUrl("http://google.com");
+            IWebElement searchField = driver.FindElement(By.Name("q"));
+            searchField.SendKeys(searchString);
+            searchField.SendKeys(Keys.Enter);
+
+            driver.FindElement(By.Id("resultStats"));
+
+            string title = driver.Title;
+            Console.WriteLine("Title: " + title);
+            Console.WriteLine("result: " + expectedResult);
+
+            Assert.True(driver.Title.Contains(expectedResult));
+        }
+
+        [TearDown]
+        public void UnloadDriver()
+        {
+            //driver.Quit();
+        }
+    }
+    */
+
+    public class Google2
+    {
+        private IWebDriver driver;
+
+        [SetUp]
+        public void LoadDriver()
+        {
+            Console.WriteLine("SetUp");
+            driver = new ChromeDriver();
+        }
+
+        [TestCase("Bing", "Bing")]
+        public void Search(string searchString, string expectedResult)
+        {
+            // execute Search twice with testdata: Google, Bing
+
+            driver.Navigate().GoToUrl("http://google.com");
+            IWebElement searchField = driver.FindElement(By.Name("q"));
+            searchField.SendKeys(searchString);
+            searchField.SendKeys(Keys.Enter);
+
+            driver.FindElement(By.Id("resultStats"));
+
+            string title = driver.Title;
+            Console.WriteLine("Title: " + title);
+            Console.WriteLine("result: " + expectedResult);
+
+            Assert.True(driver.Title.Contains(expectedResult));
+        }
+
+        [TearDown]
+        public void UnloadDriver()
+        {
+            //driver.Quit();
+        }
+    }
+
+    /*
+    public class Google3
+    {
+        private IWebDriver driver;
+
+        [SetUp]
+        public void LoadDriver()
+        {
+            Console.WriteLine("SetUp");
+            driver = new ChromeDriver();
+        }
+
+        [TestCase("Bing", "Bing")]
+        public void Search(string searchString, string expectedResult)
+        {
+            // execute Search twice with testdata: Google, Bing
+
+            driver.Navigate().GoToUrl("http://google.com");
+            IWebElement searchField = driver.FindElement(By.Name("q"), 10);
+            searchField.SendKeys(searchString);
+            searchField.SendKeys(Keys.Enter);
+
+            driver.FindElement(By.Id("resultStats"), 15);
+
+            string title = driver.Title;
+            Console.WriteLine("Title: " + title);
+            Console.WriteLine("result: " + expectedResult);
+
+            Assert.True(driver.Title.Contains(expectedResult));
+        }
+
+        [TearDown]
+        public void UnloadDriver()
+        {
+            //driver.Quit();
+        }
+    }
+    */
 }

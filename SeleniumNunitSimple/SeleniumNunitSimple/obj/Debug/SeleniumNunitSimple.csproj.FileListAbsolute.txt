@@ -8,7 +8,10 @@ c:\users\anders\documents\visual studio 2015\Projects\SeleniumNunitSimple\Seleni
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\SeleniumNunitSimple.dll
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\SeleniumNunitSimple.pdb
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\nunit.framework.dll
+E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\WebDriver.dll
+E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\WebDriver.Support.dll
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\nunit.framework.xml
-E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.csprojResolveAssemblyReference.cache
+E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\WebDriver.xml
+E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\bin\Debug\WebDriver.Support.xml
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.dll
 E:\GitHub\webdriver-vs2015-nunit-ws\SeleniumNunitSimple\SeleniumNunitSimple\obj\Debug\SeleniumNunitSimple.pdb
